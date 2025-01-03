@@ -1,5 +1,6 @@
 .header {
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
     padding: 16px 24px 8px;
     z-index: 1000;
     display: flex;
@@ -13,8 +14,14 @@
 }
 
 .logo {
-    height: 100px;
+    height: 70px;
     width: auto;
+}
+
+.items {
+    display: flex;
+    color: #fff;
+    gap: 40px;
 }
 
 @media (max-width: 640px) {
